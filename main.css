@@ -1,0 +1,107 @@
+/* ---------------Links--------------- */
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
+/* ---------------Universal style--------------- */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+/* ---------------Header--------------- */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    padding: 0 10%;
+    background-color: rgb(197, 193, 193);
+}
+nav ul{
+    display: flex;
+}
+.logo{
+    font-size: 2rem;
+}
+.logo i{
+    margin-right: .5rem;
+    font-size: 2.3rem;
+    color: rgba(228, 64, 4, 0.767);
+}
+nav ul li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+nav ul li:nth-child(1){
+    margin-right: 2rem;
+}
+nav ul li:hover{
+    border-bottom: 2px solid rgba(228, 64, 4, 0.767);
+}
+
+/* ---------------Main--------------- */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    color:hsl(208, 9%, 28%) ;
+    width: 100%;
+}
+.content{
+    width: 90%;
+}
+.content h1{
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.inp {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    
+}
+.inp input {
+    padding: 5px;
+    width: 22rem;
+    border: 1px solid  rgba(228, 64, 4, 0.767);
+    margin-right: .2rem;
+}
+.inp button {
+    padding: 5px 1rem;
+    border: 1px solid  rgba(228, 64, 4, 0.767);
+    background-color: rgba(228, 64, 4, 0.767);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------screen-size 0f 500px--------------- */
+@media screen and (max-width:500px) {
+    header{
+        padding: 0 5%;
+    }
+    nav ul li:nth-child(1){
+        margin-right: 1rem;
+    }
+}
