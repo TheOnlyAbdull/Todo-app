@@ -62,6 +62,7 @@ main{
 }
 .content{
     margin: 0 2rem;
+    width: 40%;
 }
 
 .input-todo {
@@ -138,6 +139,10 @@ main{
     }
     nav ul li:nth-child(1){
         margin-right: 1rem;
+    }
+    .content{
+        margin: 0 2rem;
+        width: 80%;
     }
     
 
