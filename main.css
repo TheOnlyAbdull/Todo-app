@@ -74,17 +74,20 @@ main{
 
 }
 .input-todo input {
-    padding: 5px;
-    width: 22rem;
+    padding: 10px 5px;
+    /* width: 22rem; */
     border: 1px solid  rgba(228, 64, 4, 0.767);
     margin-right:3%;
     width: 87%;
 }
 .input-todo button {
-    padding: 5px 1rem;
+    padding: 10px 1rem;
     border: 1px solid  rgba(228, 64, 4, 0.767);
     background-color: rgba(228, 64, 4, 0.767);
-    width: 10%;
+    /* width: 10%; */
+    text-align: center;
+}
+.input-todo button i{
     text-align: center;
 }
 /* ---------------- */
